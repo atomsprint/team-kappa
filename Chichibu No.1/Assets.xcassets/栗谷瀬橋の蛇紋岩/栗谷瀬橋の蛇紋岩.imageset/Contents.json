@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "栗谷瀬橋の蛇紋岩.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "栗谷瀬橋の蛇紋岩@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "栗谷瀬橋の蛇紋岩@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
