@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Chichibu No.1
 //
-//  Created by Ayane Ando on 11/20/25.
+//  Created by Ayane Ando gakuto on 11/20/25.
 //
 
 import UIKit
