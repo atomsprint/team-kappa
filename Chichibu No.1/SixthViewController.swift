@@ -8,7 +8,7 @@
 import UIKit
 
 class SixthViewController: UIViewController {
-
+    var c_index: Int = 0
     override func viewDidLoad() {
         super.viewDidLoad()
 
