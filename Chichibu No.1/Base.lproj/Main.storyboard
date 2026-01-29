@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24412" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wbT-59-UTY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wbT-59-UTY">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24405"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--First View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FirstViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -35,10 +35,10 @@
             </objects>
             <point key="canvasLocation" x="-866.41221374045801" y="93.661971830985919"/>
         </scene>
-        <!--View Controller-->
+        <!--Sixth View Controller-->
         <scene sceneID="i6U-ks-DtY">
             <objects>
-                <viewController id="PHK-Vx-cu4" customClass="ViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="PHK-Vx-cu4" customClass="SixthViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yGY-ZT-gos">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -131,10 +131,10 @@
             </objects>
             <point key="canvasLocation" x="-1825" y="94"/>
         </scene>
-        <!--View Controller-->
+        <!--Fifth View Controller-->
         <scene sceneID="Hqp-6q-9hx">
             <objects>
-                <viewController id="VPj-bY-KvN" customClass="ViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VPj-bY-KvN" customClass="FifthViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3j1-aQ-d8D">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -240,10 +240,6 @@
                                     <segue destination="Lza-S4-cID" kind="show" id="k9D-4S-MYx"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="ポテくまくんが食べる１" translatesAutoresizingMaskIntoConstraints="NO" id="jPb-fx-9k6">
-                                <rect key="frame" x="8" y="609" width="245" height="221"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="吹き出し１" translatesAutoresizingMaskIntoConstraints="NO" id="o2A-pL-mYX">
                                 <rect key="frame" x="151" y="587" width="252" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -265,12 +261,12 @@
             </objects>
             <point key="canvasLocation" x="815" y="792"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="cB3-MX-mj2">
             <objects>
-                <viewController id="Lza-S4-cID" customClass="ViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Lza-S4-cID" customClass="SecondViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oMm-VV-LWx">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXs-gw-Kfg">
@@ -301,10 +297,10 @@
             </objects>
             <point key="canvasLocation" x="-2.2900763358778624" y="93.661971830985919"/>
         </scene>
-        <!--First View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="SGr-oz-WFN">
             <objects>
-                <viewController storyboardIdentifier="FirstViewController" id="KTg-x4-XDW" customClass="FirstViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FirstViewController" id="KTg-x4-XDW" customClass="ThirdViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tz7-nI-m9S">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -485,10 +481,10 @@
             </objects>
             <point key="canvasLocation" x="815" y="-639"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Seventh View Controller-->
         <scene sceneID="92E-jj-kzY">
             <objects>
-                <viewController storyboardIdentifier="SecondViewController" id="9Et-3j-uZ8" customClass="SecondViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondViewController" id="9Et-3j-uZ8" customClass="SeventhViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iya-CI-CNt">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -588,10 +584,10 @@
             </objects>
             <point key="canvasLocation" x="815" y="94"/>
         </scene>
-        <!--Third View Controller-->
+        <!--Eighth View Controller-->
         <scene sceneID="mWX-93-08q">
             <objects>
-                <viewController storyboardIdentifier="thirdViewController" id="dof-O7-uyz" customClass="thirdViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="thirdViewController" id="dof-O7-uyz" customClass="EighthViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bW8-RT-ep8">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -658,7 +654,7 @@
         <!--Fourth View Controller-->
         <scene sceneID="u5I-I4-15N">
             <objects>
-                <viewController storyboardIdentifier="fourthViewController" id="qCl-ZU-pJ1" customClass="fourthViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="fourthViewController" id="qCl-ZU-pJ1" customClass="FourthViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mhn-lE-IT1">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -702,25 +698,24 @@
                     </view>
                     <navigationItem key="navigationItem" id="aeW-iJ-p0x"/>
                     <connections>
-                        <outlet property="n_explanation" destination="U8H-5X-Wsu" id="ulP-7q-nvU"/>
-                        <outlet property="n_image" destination="J8M-sb-hkY" id="jy7-WU-MB7"/>
-                        <outlet property="n_name" destination="6HS-3c-L25" id="4wF-mh-Guq"/>
+                        <outlet property="nature_explanation" destination="U8H-5X-Wsu" id="GOz-Qc-5NQ"/>
+                        <outlet property="nature_image" destination="J8M-sb-hkY" id="UYM-FC-Gmg"/>
+                        <outlet property="nature_name" destination="6HS-3c-L25" id="ktq-ha-7Sy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VBT-QR-smy" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2013" y="-639"/>
+            <point key="canvasLocation" x="1686" y="-639"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="tSB-gQ-qaO"/>
+        <segue reference="p3D-wK-77m"/>
         <segue reference="xIt-zg-g0m"/>
-        <segue reference="qfA-uR-EBt"/>
+        <segue reference="k9D-4S-MYx"/>
         <segue reference="emF-OP-ygH"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="systemPinkColor"/>
     <resources>
-        <image name="ポテくまくんが食べる１" width="283" height="436"/>
         <image name="ポテクマ1" width="112" height="124.66666412353516"/>
         <image name="吹き出し１" width="1920" height="1008"/>
         <image name="宝登山" width="205.33332824707031" height="138"/>
