@@ -8,6 +8,7 @@
 import UIKit
 
 class EighthViewController: UIViewController {
+    var q_index: Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()

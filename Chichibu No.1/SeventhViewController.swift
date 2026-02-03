@@ -8,11 +8,50 @@
 import UIKit
 
 class SeventhViewController: UIViewController {
-
+    var number: Int = 0
+    @IBOutlet weak var color_label_1: UILabel!
+    @IBOutlet weak var color_label_2: UILabel!
+    @IBOutlet weak var color_label_3: UILabel!
+    @IBAction func button_1(_ sender: UIButton) {
+        if number == 2 {
+            color_label_2.backgroundColor = .systemYellow
+        } else if number == 3 {
+            color_label_3.backgroundColor = .systemYellow
+        }
+        color_label_1.backgroundColor = .systemRed
+        number = 1
+    }
+    @IBAction func button_2(_ sender: UIButton) {
+        if number == 1 {
+            color_label_1.backgroundColor = .systemYellow
+        } else if number == 3 {
+            color_label_3.backgroundColor = .systemYellow
+        }
+        color_label_2.backgroundColor = .systemRed
+        number = 2
+    }
+    
+    @IBAction func button_3(_ sender: UIButton) {
+        if number == 1 {
+            color_label_1.backgroundColor = .systemYellow
+        } else if number == 2 {
+            color_label_2.backgroundColor = .systemYellow
+        }
+        color_label_3.backgroundColor = .systemRed
+        number = 3
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let secondVC = segue.destination as? EighthViewController {
+            if segue.identifier == "Q_segue" {
+                secondVC.q_index = number
+            }
+        }
     }
     
 
