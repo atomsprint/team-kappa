@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		735D88A32F47113100941118 /* Chichibu No.1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Chichibu No.1.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		C5ED0F5A2ECF22C100B41BB6 /* Chichibu No.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chichibu No.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -45,6 +46,7 @@
 		C5ED0F512ECF22C100B41BB6 = {
 			isa = PBXGroup;
 			children = (
+				735D88A32F47113100941118 /* Chichibu No.1.xcodeproj */,
 				C5ED0F5C2ECF22C100B41BB6 /* Chichibu No.1 */,
 				C5ED0F5B2ECF22C100B41BB6 /* Products */,
 			);
