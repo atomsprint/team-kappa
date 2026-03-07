@@ -8,12 +8,21 @@
 import UIKit
 
 class EighthViewController: UIViewController {
-    var q_index: Int = 0
+    @IBOutlet weak var answerLabel: UILabel!
+    @IBOutlet weak var commentLabel: UILabel!
+    var q_answer: Int = 0
+    var q_comment = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        if q_answer == 1 {
+            answerLabel.text = "正解です"
+        } else if q_answer == 0 {
+            answerLabel.text = "残念ですが不正解です"
+        }
+        commentLabel.text = q_comment
     }
     
 
