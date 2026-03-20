@@ -1,5 +1,5 @@
 //
-//  FourthViewController.swift
+//  nature_sub_ViewController.swift
 //  Chichibu No.1
 //
 //  Created by 小野悦子 on 2026/01/29.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FourthViewController: UIViewController {
+class nature_sub_ViewController: UIViewController {
     var index: Int = 0
     @IBOutlet weak var nature_name: UILabel!
     @IBOutlet weak var nature_explanation: UILabel!

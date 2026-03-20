@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First View Controller-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FirstViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,14 +34,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-866.41221374045801" y="93.661971830985919"/>
+            <point key="canvasLocation" x="-967" y="530"/>
         </scene>
         <!--Sixth View Controller-->
         <scene sceneID="i6U-ks-DtY">
             <objects>
                 <viewController id="PHK-Vx-cu4" customClass="SixthViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yGY-ZT-gos">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="文化１" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flF-NG-6qJ">
@@ -100,14 +100,14 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9BH-kh-2nh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1825" y="94"/>
+            <point key="canvasLocation" x="-1906" y="530"/>
         </scene>
         <!--Fifth View Controller-->
         <scene sceneID="Hqp-6q-9hx">
             <objects>
                 <viewController id="VPj-bY-KvN" customClass="FifthViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3j1-aQ-d8D">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQU-mz-OQP">
@@ -332,14 +332,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="se5-a6-rNj" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-124.42748091603053" y="1033.8028169014085"/>
+            <point key="canvasLocation" x="815" y="1571"/>
         </scene>
-        <!--Second View Controller-->
+        <!--View Controller-->
         <scene sceneID="cB3-MX-mj2">
             <objects>
-                <viewController id="Lza-S4-cID" customClass="SecondViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Lza-S4-cID" customClass="ViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oMm-VV-LWx">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXs-gw-Kfg">
@@ -377,12 +377,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yT7-PE-r1j" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2.2900763358778624" y="93.661971830985919"/>
+            <point key="canvasLocation" x="-24" y="530"/>
         </scene>
-        <!--Third View Controller-->
+        <!--Nature main View Controller-->
         <scene sceneID="SGr-oz-WFN">
             <objects>
-                <viewController storyboardIdentifier="FirstViewController" id="KTg-x4-XDW" customClass="ThirdViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FirstViewController" id="KTg-x4-XDW" customClass="nature_mainViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tz7-nI-m9S">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -563,10 +563,10 @@
             </objects>
             <point key="canvasLocation" x="815" y="-639"/>
         </scene>
-        <!--Seventh View Controller-->
+        <!--Question View Controller-->
         <scene sceneID="92E-jj-kzY">
             <objects>
-                <viewController storyboardIdentifier="SecondViewController" id="9Et-3j-uZ8" customClass="SeventhViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondViewController" id="9Et-3j-uZ8" customClass="QuestionViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iya-CI-CNt">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -577,7 +577,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="b"/>
                                 <connections>
-                                    <action selector="choiceTapped:" destination="9Et-3j-uZ8" eventType="touchUpInside" id="YJa-Vd-f4D"/>
+                                    <action selector="choiceTappeda:" destination="9Et-3j-uZ8" eventType="touchUpInside" id="Twq-m9-BKM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcG-sq-jYB">
@@ -586,7 +586,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="b"/>
                                 <connections>
-                                    <action selector="choiceTapped:" destination="9Et-3j-uZ8" eventType="touchUpInside" id="mpr-bC-0gh"/>
+                                    <action selector="choiceTappeda:" destination="9Et-3j-uZ8" eventType="touchUpInside" id="YU3-ID-hjr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N29-Uq-57F">
@@ -595,7 +595,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="b"/>
                                 <connections>
-                                    <action selector="choiceTapped:" destination="9Et-3j-uZ8" eventType="touchUpInside" id="l9R-gq-x2Y"/>
+                                    <action selector="choiceTappeda:" destination="9Et-3j-uZ8" eventType="touchUpInside" id="PhC-rM-iCb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="断面クイズ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g16-g4-1yj">
@@ -706,31 +706,31 @@
                     </view>
                     <navigationItem key="navigationItem" id="zjg-HX-WdL"/>
                     <connections>
-                        <outlet property="button1" destination="ZRC-nb-slz" id="cta-A3-0ae"/>
-                        <outlet property="button2" destination="dcG-sq-jYB" id="s4w-gw-IhS"/>
-                        <outlet property="button3" destination="N29-Uq-57F" id="Gct-B5-0g0"/>
-                        <outlet property="choislabel1" destination="2A2-Tu-9fg" id="m5C-vC-DoD"/>
-                        <outlet property="choislabel2" destination="X0W-93-9DH" id="f1g-GK-Thh"/>
-                        <outlet property="choislabel3" destination="evU-S9-Wat" id="Ged-0Z-ylS"/>
-                        <outlet property="color_label_1" destination="HQo-4c-BPK" id="g7e-BQ-wAZ"/>
-                        <outlet property="color_label_2" destination="87T-rT-0HO" id="9Um-ob-xYi"/>
-                        <outlet property="color_label_3" destination="z0N-0c-w1e" id="zaS-zV-sQl"/>
-                        <outlet property="questionLabel" destination="Sdn-4I-47T" id="m4u-qR-cgM"/>
+                        <outlet property="button1" destination="ZRC-nb-slz" id="FMX-2Z-2HT"/>
+                        <outlet property="button2" destination="dcG-sq-jYB" id="Rqk-i4-ehQ"/>
+                        <outlet property="button3" destination="N29-Uq-57F" id="6Z0-fW-LUy"/>
+                        <outlet property="choislabel1" destination="2A2-Tu-9fg" id="hqn-3N-a8g"/>
+                        <outlet property="choislabel2" destination="X0W-93-9DH" id="DNa-Ax-Xyj"/>
+                        <outlet property="choislabel3" destination="evU-S9-Wat" id="bj2-80-oDW"/>
+                        <outlet property="color_label_1" destination="HQo-4c-BPK" id="kVc-Nx-oJL"/>
+                        <outlet property="color_label_2" destination="87T-rT-0HO" id="u36-oT-khN"/>
+                        <outlet property="color_label_3" destination="z0N-0c-w1e" id="dk9-rv-FWW"/>
+                        <outlet property="questionLabel" destination="Sdn-4I-47T" id="15M-Mo-xep"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="39o-8C-b4n" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="814.50381679389307" y="93.661971830985919"/>
         </scene>
-        <!--Eighth View Controller-->
+        <!--Checking answer View Controller-->
         <scene sceneID="mWX-93-08q">
             <objects>
-                <viewController storyboardIdentifier="thirdViewController" id="dof-O7-uyz" customClass="EighthViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="dof-O7-uyz" customClass="Checking_answerViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bW8-RT-ep8">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="正解です" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rA-z2-bBO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="答案" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rA-z2-bBO">
                                 <rect key="frame" x="16" y="59" width="361" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
@@ -785,18 +785,18 @@
                     </view>
                     <navigationItem key="navigationItem" id="TVk-Pj-9wp"/>
                     <connections>
-                        <outlet property="answerLabel" destination="F6Q-6m-I4W" id="ctK-sg-ypl"/>
-                        <outlet property="commentLabel" destination="F6Q-6m-I4W" id="clA-2c-AHh"/>
+                        <outlet property="answerLabel" destination="9rA-z2-bBO" id="zwR-rF-OLV"/>
+                        <outlet property="commentLabel" destination="F6Q-6m-I4W" id="vdG-eU-pGD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GOb-ia-MSW" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2013" y="94"/>
         </scene>
-        <!--Fourth View Controller-->
+        <!--Nature sub View Controller-->
         <scene sceneID="u5I-I4-15N">
             <objects>
-                <viewController storyboardIdentifier="fourthViewController" id="qCl-ZU-pJ1" customClass="FourthViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="fourthViewController" id="qCl-ZU-pJ1" customClass="nature_sub_ViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mhn-lE-IT1">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -840,9 +840,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="aeW-iJ-p0x"/>
                     <connections>
-                        <outlet property="nature_explanation" destination="U8H-5X-Wsu" id="GOz-Qc-5NQ"/>
-                        <outlet property="nature_image" destination="J8M-sb-hkY" id="UYM-FC-Gmg"/>
-                        <outlet property="nature_name" destination="6HS-3c-L25" id="ktq-ha-7Sy"/>
+                        <outlet property="nature_explanation" destination="U8H-5X-Wsu" id="yaB-QD-EMu"/>
+                        <outlet property="nature_image" destination="J8M-sb-hkY" id="XYf-eX-JVR"/>
+                        <outlet property="nature_name" destination="6HS-3c-L25" id="3YM-af-5rQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VBT-QR-smy" sceneMemberID="firstResponder"/>
@@ -892,15 +892,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8wA-5U-Zm2" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="782" y="1527"/>
+            <point key="canvasLocation" x="2013" y="1536"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="p3D-wK-77m"/>
-        <segue reference="xIt-zg-g0m"/>
-        <segue reference="3xT-TI-mxC"/>
-        <segue reference="tGk-hs-f2I"/>
-        <segue reference="y6Y-lQ-3ny"/>
+        <segue reference="cjN-3s-RiD"/>
+        <segue reference="k9D-4S-MYx"/>
+        <segue reference="AGq-rf-cnM"/>
+        <segue reference="0Xr-5X-g1w"/>
         <segue reference="IOR-tt-hS1"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="systemPinkColor"/>
@@ -920,43 +920,43 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.53333333333333333" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemCyanColor">
-            <color red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.75294117647058822" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray4Color">
-            <color red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGrayColor">
-            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemMintColor">
-            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.78431372549019607" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.55294117647058827" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
-            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPurpleColor">
-            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.79607843137254897" green="0.18823529411764706" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.2196078431372549" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

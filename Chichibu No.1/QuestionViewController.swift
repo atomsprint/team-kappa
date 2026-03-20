@@ -1,5 +1,5 @@
 //
-//  SeventhViewController.swift
+//  QuestionViewController.swift
 //  Chichibu No.1
 //
 //  Created by 小野悦子 on 2026/01/29.
@@ -7,9 +7,9 @@
 
 import UIKit
 
-class SeventhViewController: UIViewController {
-    var number: Int = 0
+class QuestionViewController: UIViewController {
     var Answer: Int = 0
+    var T_or_F = ""
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var color_label_1: UILabel!
     @IBOutlet weak var color_label_2: UILabel!
@@ -44,33 +44,35 @@ class SeventhViewController: UIViewController {
         choislabel3.text = quiz.choices[2]
     }
     
-    @IBAction func choiceTapped(_ sender: UIButton) {
+    @IBAction func choiceTappeda(_ sender: UIButton) {
         if sender == button1 {
-            number = 0
+            Answer = 0
             color_label_1.backgroundColor = .systemRed
             color_label_2.backgroundColor = .systemYellow
             color_label_3.backgroundColor = .systemYellow
         } else if sender == button2 {
-            number = 1
+            Answer = 1
             color_label_1.backgroundColor = .systemYellow
             color_label_2.backgroundColor = .systemRed
             color_label_3.backgroundColor = .systemYellow
         } else if sender == button3 {
-            number = 2
+            Answer = 2
             color_label_1.backgroundColor = .systemYellow
             color_label_2.backgroundColor = .systemYellow
             color_label_3.backgroundColor = .systemRed
         }
-        if number == quizzes[0].answer {
-            Answer = 1
+        if Answer == quizzes[0].answer {
+            T_or_F = "True"
         } else {
-            Answer = 0
+            T_or_F = "False"
         }
     }
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let secondVC = segue.destination as? EighthViewController {
+        if let secondVC = segue.destination as? Checking_answerViewController {
             if segue.identifier == "q_segue" {
-                secondVC.q_answer = Answer
+                secondVC.true_or_false = T_or_F
                 secondVC.q_comment = quizzes[0].comment
             }
         }

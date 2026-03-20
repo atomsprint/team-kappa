@@ -1,13 +1,13 @@
 //
-//  ThirdViewController.swift
+//  nature_mainViewController.swift
 //  Chichibu No.1
 //
-//  Created by 小野悦子 on 2026/01/29.
+//  Created by 小野悦子 on 2026/03/20.
 //
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class nature_mainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,7 +16,7 @@ class ThirdViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let secondVC = segue.destination as? FourthViewController {
+        if let secondVC = segue.destination as? nature_sub_ViewController {
             if segue.identifier == "segue_1" {
                 secondVC.index = 0
             } else if segue.identifier == "segue_2" {
@@ -32,7 +32,6 @@ class ThirdViewController: UIViewController {
             }
         }
     }
-    
 
     /*
     // MARK: - Navigation
