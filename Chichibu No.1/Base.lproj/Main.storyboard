@@ -107,7 +107,7 @@
             <objects>
                 <viewController id="VPj-bY-KvN" customClass="FifthViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3j1-aQ-d8D">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQU-mz-OQP">
@@ -263,6 +263,9 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="戻る"/>
+                                <connections>
+                                    <segue destination="Lza-S4-cID" kind="show" id="7Xu-t6-NKR"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DFV-2a-Vjg">
                                 <rect key="frame" x="16" y="115" width="150" height="82"/>
@@ -829,7 +832,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="ホームに戻る"/>
                                 <connections>
-                                    <segue destination="Lza-S4-cID" kind="show" id="3xT-TI-mxC"/>
+                                    <segue destination="Lza-S4-cID" kind="show" id="ku6-0Q-rnt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdt-ta-j3L">
@@ -838,6 +841,9 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="戻る"/>
+                                <connections>
+                                    <segue destination="sY9-mV-Lhx" kind="show" id="gNC-0A-5Bq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pyc-qz-HPr"/>
