@@ -9,16 +9,16 @@ import UIKit
 
 class SixthViewController: UIViewController {
     var c_index: Int = 0
-
-    let al_culture_name = ["文化1", "文化2", "文化3", "文化4", "文化5", "文化6", "文化7", "文化8"]
-    let al_culture_explanation = ["", "", "", "", "", "", "", ""]
+    @IBOutlet weak var culture_image: UIImageView!
     @IBOutlet weak var culture_name: UILabel!
-    
     @IBOutlet weak var culture_explanation: UILabel!
-    
+    let al_culture_image = [#imageLiteral(resourceName: "秩父事件😭"), #imageLiteral(resourceName: "秩父銘仙　完成"), #imageLiteral(resourceName: "秩父夜祭"), #imageLiteral(resourceName: "秩父のお金？？？？？？？？？？？？？"), #imageLiteral(resourceName: "Image"), #imageLiteral(resourceName: "橋立鍾乳洞")]
+    let al_culture_name = ["秩父事件", "秩父銘仙", "秩父夜祭", "和銅遺跡", "秩父神社の巡礼", "武甲酒造"]
+    let al_culture_explanation = ["秩父事件は、1884年（明治17年）11月に起こった、日本近代史上最大規模の農民武装蜂起です。", "秩父銘仙は、絹織物で、国の伝統的工芸品に指定されている", "秩父夜祭は、毎年12月2日（宵宮）と3日（大祭）に開催される秩父神社の大祭で、2016年にユネスコ無形文化遺産にも登録された。", "和銅遺跡は、日本最初の流通貨幣「和同開珎」の原料となった銅が採掘された場所です。", "秩父における「巡礼」には、大きく分けて「秩父三十四箇所（観音霊場）巡り」と「秩父三社巡り」の2つの意味があります。秩父神社はその中心的な役割を担っています。", "武甲酒造は、1753年（宝暦3年）創業の江戸時代から続く秩父で最も歴史ある造り酒屋です。"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        culture_image.image = al_culture_image[c_index]
         culture_name.text = al_culture_name[c_index]
         culture_explanation.text = al_culture_explanation[c_index]
         if c_index == 0 {
