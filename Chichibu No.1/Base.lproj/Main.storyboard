@@ -65,7 +65,7 @@
             <objects>
                 <viewController id="PHK-Vx-cu4" customClass="SixthViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yGY-ZT-gos">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flF-NG-6qJ">
@@ -115,7 +115,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tUH-17-lFv"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="282-V6-AMy"/>
                     <connections>
@@ -151,7 +151,7 @@
             <objects>
                 <viewController id="VPj-bY-KvN" customClass="FifthViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3j1-aQ-d8D">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQU-mz-OQP">
@@ -317,7 +317,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8ck-J7-KBS"/>
-                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="k7k-xc-1hn"/>
                 </viewController>
@@ -330,7 +330,7 @@
             <objects>
                 <viewController id="sY9-mV-Lhx" customClass="nineViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CzZ-oX-oNh">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPM-EF-ZLo">
@@ -383,7 +383,7 @@
             <objects>
                 <viewController id="Lza-S4-cID" customClass="ViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oMm-VV-LWx">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXs-gw-Kfg">
@@ -440,7 +440,7 @@
             <objects>
                 <viewController storyboardIdentifier="FirstViewController" id="KTg-x4-XDW" customClass="nature_mainViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tz7-nI-m9S">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="自然" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLy-3X-FPf">
@@ -654,7 +654,7 @@
             <objects>
                 <viewController storyboardIdentifier="SecondViewController" id="9Et-3j-uZ8" customClass="QuestionViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iya-CI-CNt">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRC-nb-slz">
@@ -813,7 +813,7 @@
             <objects>
                 <viewController storyboardIdentifier="ViewController" id="dof-O7-uyz" customClass="Checking_answerViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bW8-RT-ep8">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="答案" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rA-z2-bBO">
@@ -884,7 +884,7 @@
             <objects>
                 <viewController storyboardIdentifier="fourthViewController" id="qCl-ZU-pJ1" customClass="nature_sub_ViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mhn-lE-IT1">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10000000000" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8H-5X-Wsu">
@@ -999,10 +999,10 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="p3D-wK-77m"/>
-        <segue reference="Vus-OJ-zsN"/>
-        <segue reference="OFs-An-JeG"/>
+        <segue reference="xIt-zg-g0m"/>
+        <segue reference="k9D-4S-MYx"/>
         <segue reference="AGq-rf-cnM"/>
-        <segue reference="0Xr-5X-g1w"/>
+        <segue reference="y6Y-lQ-3ny"/>
         <segue reference="RXa-xv-YKk"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="systemPinkColor"/>
