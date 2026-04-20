@@ -25,6 +25,7 @@ let quizList = [
     Quiz(question: "落合の不整合（地層が途切れて時間が飛んでいる場所）では、古い地層と新しい地層の年代差はどれくらいでしょうか？", choices: ["約100万年", "約1億年", "約5億年"], answer: 1, image: 6, comment: "年代差")
 ]
 
+
 struct Info {
     let info: String
 }
