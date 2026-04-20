@@ -858,11 +858,17 @@
                                 <rect key="frame" x="26" y="347" width="341" height="345"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byw-lE-c37">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="100000000" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byw-lE-c37">
                                 <rect key="frame" x="57" y="491" width="275" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -873,6 +879,7 @@
                     <connections>
                         <outlet property="answerLabel" destination="9rA-z2-bBO" id="zwR-rF-OLV"/>
                         <outlet property="commentLabel" destination="F6Q-6m-I4W" id="vdG-eU-pGD"/>
+                        <outlet property="infor" destination="byw-lE-c37" id="Grb-T6-HEp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GOb-ia-MSW" sceneMemberID="firstResponder"/>
@@ -999,7 +1006,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="p3D-wK-77m"/>
-        <segue reference="xIt-zg-g0m"/>
+        <segue reference="cjN-3s-RiD"/>
         <segue reference="k9D-4S-MYx"/>
         <segue reference="AGq-rf-cnM"/>
         <segue reference="y6Y-lQ-3ny"/>

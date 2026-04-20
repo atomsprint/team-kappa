@@ -11,7 +11,9 @@ class Checking_answerViewController: UIViewController {
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var commentLabel: UILabel!
     var true_or_false = ""
+    @IBOutlet weak var infor: UILabel!
     var q_comment = ""
+    var in_tion: [Info] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +25,10 @@ class Checking_answerViewController: UIViewController {
             answerLabel.text = "残念ですが不正解です"
         }
         commentLabel.text = q_comment
+        
+        in_tion = Array(information.shuffled().prefix(12))
+        let info_text = in_tion[1]
+        infor.text = info_text.info
     }
     
 
