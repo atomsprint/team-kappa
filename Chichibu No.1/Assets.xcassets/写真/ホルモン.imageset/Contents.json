@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "きゃーっ　ポテクマかっこいいー.png",
+      "filename" : "ホルモン焼き.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "ホルモン焼き 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "ホルモン焼き 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
