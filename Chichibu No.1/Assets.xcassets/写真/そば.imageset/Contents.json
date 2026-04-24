@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "そば 3.png",
+      "filename" : "そば 5.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "そば.png",
+      "filename" : "そば 4.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "そば 2.png",
+      "filename" : "そば.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
