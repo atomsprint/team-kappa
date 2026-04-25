@@ -341,21 +341,14 @@
                                     <segue destination="Lza-S4-cID" kind="show" id="SDS-U9-SrW"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="気になる食べ物のボタンを押してね" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIW-mJ-pm2">
-                                <rect key="frame" x="16" y="59" width="545" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oSC-er-cYX">
                                 <rect key="frame" x="44" y="724" width="56" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="戻る">
-                                    <color key="baseForegroundColor" red="0.82745098039999998" green="0.88235294119999996" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.5283203125" green="0.802734375" blue="0.6108398438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="Lza-S4-cID" kind="show" id="q9O-MJ-Jxf"/>
@@ -1129,30 +1122,30 @@
                                     <segue destination="sY9-mV-Lhx" kind="show" id="tGk-hs-f2I"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="説明" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQC-By-jsv">
+                                <rect key="frame" x="138" y="-97" width="393" height="271"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="48"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdt-ta-j3L">
-                                <rect key="frame" x="42" y="792" width="56" height="36"/>
+                                <rect key="frame" x="42" y="705" width="56" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="戻る">
-                                    <color key="baseForegroundColor" red="0.82745098039999998" green="0.88235294119999996" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="baseBackgroundColor" red="0.0" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.5283203125" green="0.802734375" blue="0.6108398438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="sY9-mV-Lhx" kind="show" id="Q3L-PT-Ag4"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tewofuru-th" translatesAutoresizingMaskIntoConstraints="NO" id="hJf-ps-1Z9">
-                                <rect key="frame" x="153" y="724" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="potekuma-kunn" translatesAutoresizingMaskIntoConstraints="NO" id="hJf-ps-1Z9">
+                                <rect key="frame" x="-50" y="577" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="説明" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQC-By-jsv">
-                                <rect key="frame" x="0.0" y="354" width="393" height="271"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pyc-qz-HPr"/>
                         <color key="backgroundColor" red="0.82745098039999998" green="0.88235294119999996" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1176,6 +1169,7 @@
     <color key="tintColor" systemColor="systemPinkColor"/>
     <resources>
         <image name="Image" width="256" height="197"/>
+        <image name="potekuma-kunn" width="44" height="66.666664123535156"/>
         <image name="tewofuru-th" width="200" height="197"/>
         <image name="travel_Pair_web" width="551" height="369"/>
         <image name="あまりん" width="333.33334350585938" height="233.33332824707031"/>
