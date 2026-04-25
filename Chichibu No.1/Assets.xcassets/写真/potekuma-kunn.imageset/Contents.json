@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "そば 9.png",
+      "filename" : "doushiyo_web2.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "そば 8.png",
+      "filename" : "doushiyo_web2 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "そば.png",
+      "filename" : "doushiyo_web2 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
