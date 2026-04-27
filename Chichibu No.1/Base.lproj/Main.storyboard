@@ -324,7 +324,7 @@
             <objects>
                 <viewController id="sY9-mV-Lhx" customClass="nineViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CzZ-oX-oNh">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPM-EF-ZLo">
@@ -369,7 +369,7 @@
                                     <color key="baseBackgroundColor" red="0.5283203125" green="0.802734375" blue="0.6108398438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="KAT-Vp-75d" kind="show" id="lOf-Cr-cNE"/>
+                                    <segue destination="KAT-Vp-75d" kind="show" id="mjl-TM-L0I"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tiq-BZ-T5K">
@@ -480,10 +480,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="そば" translatesAutoresizingMaskIntoConstraints="NO" id="Cp9-FU-5RH">
-                                <rect key="frame" x="216" y="103" width="146" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="しゃくしな漬" translatesAutoresizingMaskIntoConstraints="NO" id="pho-ns-CRE">
                                 <rect key="frame" x="57" y="249" width="131" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -526,6 +522,10 @@
                                     <segue destination="KAT-Vp-75d" kind="show" id="1wK-wD-sk8"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="そば" translatesAutoresizingMaskIntoConstraints="NO" id="Cp9-FU-5RH">
+                                <rect key="frame" x="214" y="114" width="146" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ocQ-AQ-SHl"/>
                         <color key="backgroundColor" red="0.82745098039999998" green="0.88235294119999996" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -541,7 +541,7 @@
             <objects>
                 <viewController id="Lza-S4-cID" customClass="ViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oMm-VV-LWx">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXs-gw-Kfg">
@@ -1143,6 +1143,19 @@
                                 <rect key="frame" x="-50" y="577" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="そば" translatesAutoresizingMaskIntoConstraints="NO" id="vxv-9U-UH5">
+                                <rect key="frame" x="68" y="125" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yWG-Md-OOh">
+                                <rect key="frame" x="53" y="280" width="308" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">秩父は山に囲まれていて、昔はお米が作りにくかった。その代わり育てやすかったのが「そば」。秩父の蕎麦は「くるみだれ」があるのも特徴で、すり潰したくるみに甘辛い味付けをしたつゆで食べることもある。くるみ蕎麦が美味しいのは「わへいそば」とにかく沢山食べたいなら「本家　原」ようばけを見に行ったら近くにある「とみ田」がおすすめ！</string>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pyc-qz-HPr"/>
                         <color key="backgroundColor" red="0.82745098039999998" green="0.88235294119999996" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1155,11 +1168,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="3i9-N6-gCb"/>
+        <segue reference="1wK-wD-sk8"/>
         <segue reference="p3D-wK-77m"/>
         <segue reference="Vus-OJ-zsN"/>
-        <segue reference="k9D-4S-MYx"/>
-        <segue reference="AGq-rf-cnM"/>
+        <segue reference="q9O-MJ-Jxf"/>
+        <segue reference="Q3L-PT-Ag4"/>
         <segue reference="0Xr-5X-g1w"/>
         <segue reference="RXa-xv-YKk"/>
     </inferredMetricsTieBreakers>
