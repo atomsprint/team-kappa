@@ -22,29 +22,29 @@ class SixthViewController: UIViewController {
         culture_name.text = al_culture_name[c_index]
         culture_explanation.text = al_culture_explanation[c_index]
         if c_index == 0 {
-            culture_name.textColor = .systemPink
-            culture_explanation.textColor = .systemPink
+            culture_name.textColor = .systemGreen
+            culture_explanation.textColor = .systemGreen
         } else if c_index == 1 {
             culture_name.textColor = .systemPink
-            culture_explanation.textColor = .systemPink
+            culture_explanation.textColor = .systemGreen
         } else if c_index == 2 {
             culture_name.textColor = .systemPink
-            culture_explanation.textColor = .systemPink
+            culture_explanation.textColor = .systemGreen
         } else if c_index == 3 {
             culture_name.textColor = .systemPink
-            culture_explanation.textColor = .systemPink
+            culture_explanation.textColor = .systemGreen
         } else if c_index == 4 {
             culture_name.textColor = .systemPink
-            culture_explanation.textColor = .systemPink
+            culture_explanation.textColor = .systemGreen
         } else if c_index == 5 {
             culture_name.textColor = .systemPink
-            culture_explanation.textColor = .systemPink
+            culture_explanation.textColor = .systemGreen
         } else if c_index == 6 {
             culture_name.textColor = .systemPink
-            culture_explanation.textColor = .systemPink
+            culture_explanation.textColor = .systemGreen
         } else if c_index == 7 {
             culture_name.textColor = .systemPink
-            culture_explanation.textColor = .systemPink
+            culture_explanation.textColor = .systemGreen
         }
         // Do any additional setup after loading the view.
     }
