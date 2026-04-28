@@ -1,14 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "味噌豚.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "味噌豚 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "味噌豚 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
