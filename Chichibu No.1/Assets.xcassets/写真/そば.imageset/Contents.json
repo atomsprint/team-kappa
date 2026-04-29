@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "そば 21.png",
+      "filename" : "そば 21.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "そば 23.png",
+      "filename" : "そば 23.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "そば.png",
+      "filename" : "そば.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
