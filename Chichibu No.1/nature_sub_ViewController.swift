@@ -17,7 +17,7 @@ class nature_sub_ViewController: UIViewController {
     let al_nature_explanation = ["秩父ミューズパークにある。春と秋の明け方に雲海が発生する。前日に雨が降った日は特に発生しやすい。ミューズパークからは、ハーブ橋がかかっている。", "蝋梅が咲く２月ごろがおすすめ", "４月下旬に咲く４０万株の芝桜は圧巻。朝一番で見ることができるので、５時過ぎがベスト", "ヤマトタケルが登山し、武具を納め統制の成功を祈った伝説がある。山頂からはお祭りの打ち上げ花火を見下ろすことができる。", "長瀞の岩棚に代表される三波川帯の中に小規模な蛇紋岩帯が分布している。蛇紋岩は磨くと美しい石材となり、緑色の大理石とも呼ばれる。", "竪穴型の鍾乳洞で、宮沢賢治も訪れた場所。"]
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
         nature_image.image = al_nature_image[index]
@@ -25,15 +25,17 @@ class nature_sub_ViewController: UIViewController {
         nature_explanation.text = al_nature_explanation[index]
     }
     
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
+    
+    
+}
