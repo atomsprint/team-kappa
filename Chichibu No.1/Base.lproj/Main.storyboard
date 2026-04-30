@@ -67,7 +67,7 @@
             <objects>
                 <viewController id="PHK-Vx-cu4" customClass="SixthViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yGY-ZT-gos">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flF-NG-6qJ">
@@ -330,7 +330,7 @@
             <objects>
                 <viewController id="sY9-mV-Lhx" customClass="nineViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CzZ-oX-oNh">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPM-EF-ZLo">
@@ -364,7 +364,7 @@
                                     <color key="baseBackgroundColor" red="0.5283203125" green="0.802734375" blue="0.6108398438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="KAT-Vp-75d" kind="show" id="WAl-WG-S1V"/>
+                                    <segue destination="KAT-Vp-75d" kind="show" identifier="Segue_3" id="8ah-Yw-bPe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60A-Nc-YpJ">
@@ -375,7 +375,7 @@
                                     <color key="baseBackgroundColor" red="0.5283203125" green="0.802734375" blue="0.6108398438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="KAT-Vp-75d" kind="show" id="lOf-Cr-cNE"/>
+                                    <segue destination="KAT-Vp-75d" kind="show" identifier="Segue_2" id="VH9-pt-D3e"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tiq-BZ-T5K">
@@ -386,18 +386,7 @@
                                     <color key="baseBackgroundColor" red="0.5283203125" green="0.802734375" blue="0.6108398438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="KAT-Vp-75d" kind="show" id="Xs8-OR-5p7"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXs-Z4-3rR">
-                                <rect key="frame" x="40" y="76" width="131" height="127"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button">
-                                    <color key="baseBackgroundColor" red="0.5283203125" green="0.802734375" blue="0.6108398438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="KAT-Vp-75d" kind="show" id="3i9-N6-gCb"/>
+                                    <segue destination="KAT-Vp-75d" kind="show" identifier="Segue_4" id="98h-d9-pmN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwX-GW-ygt">
@@ -408,7 +397,7 @@
                                     <color key="baseBackgroundColor" red="0.5283203125" green="0.802734375" blue="0.6108398438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="KAT-Vp-75d" kind="show" id="G0o-Pf-lfn"/>
+                                    <segue destination="KAT-Vp-75d" kind="show" identifier="Segue_6" id="uzo-30-aiy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6a7-yM-RlM">
@@ -419,7 +408,7 @@
                                     <color key="baseBackgroundColor" red="0.5283203125" green="0.802734375" blue="0.6108398438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="KAT-Vp-75d" kind="show" id="Hnb-je-ohI"/>
+                                    <segue destination="KAT-Vp-75d" kind="show" identifier="Segue_5" id="TKP-ye-OEV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxL-0z-XIG">
@@ -430,7 +419,7 @@
                                     <color key="baseBackgroundColor" red="0.5283203125" green="0.802734375" blue="0.6108398438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="KAT-Vp-75d" kind="show" id="q6u-Rm-76j"/>
+                                    <segue destination="KAT-Vp-75d" kind="show" identifier="Segue_8" id="u36-L2-8yl"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="味噌ポテト" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mW4-Es-bnj">
@@ -470,7 +459,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="あまりん" translatesAutoresizingMaskIntoConstraints="NO" id="tbC-6m-Kxy">
-                                <rect key="frame" x="40" y="72" width="131" height="98"/>
+                                <rect key="frame" x="40" y="73" width="131" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="わらじかつ丼" translatesAutoresizingMaskIntoConstraints="NO" id="96o-P0-epx">
@@ -479,10 +468,6 @@
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="味噌豚" translatesAutoresizingMaskIntoConstraints="NO" id="fJo-OO-9Kn">
                                 <rect key="frame" x="219" y="552" width="134" height="98"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="味噌ポテト" translatesAutoresizingMaskIntoConstraints="NO" id="8Zs-XZ-xH6">
-                                <rect key="frame" x="224" y="392" width="131" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ホルモン焼き" translatesAutoresizingMaskIntoConstraints="NO" id="yfh-U3-RLe">
@@ -503,17 +488,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kuk-40-8bR">
-                                <rect key="frame" x="40" y="560" width="131" height="127"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button">
-                                    <color key="baseBackgroundColor" red="0.5283203125" green="0.802734375" blue="0.6108398438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="KAT-Vp-75d" kind="show" id="vMW-QY-0fa"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="秩父山ルビー" translatesAutoresizingMaskIntoConstraints="NO" id="aIJ-I9-qA9">
                                 <rect key="frame" x="40" y="552" width="131" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -532,6 +506,32 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="味噌ポテト" translatesAutoresizingMaskIntoConstraints="NO" id="UFP-Qd-FSX">
+                                <rect key="frame" x="224" y="400" width="131" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXs-Z4-3rR">
+                                <rect key="frame" x="40" y="76" width="131" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                    <color key="baseBackgroundColor" red="0.5283203125" green="0.802734375" blue="0.6108398438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="KAT-Vp-75d" kind="show" identifier="Segue_1" id="AwV-N9-WkK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kuk-40-8bR">
+                                <rect key="frame" x="42" y="556" width="131" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                    <color key="baseBackgroundColor" red="0.5283203125" green="0.802734375" blue="0.6108398438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="KAT-Vp-75d" kind="show" identifier="Segue_7" id="lE1-hd-iGn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ocQ-AQ-SHl"/>
                         <color key="backgroundColor" red="0.82745098039999998" green="0.88235294119999996" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -547,7 +547,7 @@
             <objects>
                 <viewController id="Lza-S4-cID" customClass="ViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oMm-VV-LWx">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXs-gw-Kfg">
@@ -1111,7 +1111,7 @@
             <objects>
                 <viewController id="KAT-Vp-75d" customClass="tenViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MDh-wT-AkW">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awR-MF-v89">
@@ -1153,7 +1153,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQC-By-jsv">
-                                <rect key="frame" x="0.0" y="310" width="393" height="271"/>
+                                <rect key="frame" x="0.0" y="319" width="393" height="271"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="説明">
@@ -1172,24 +1172,24 @@
                     </view>
                     <navigationItem key="navigationItem" id="WtQ-hm-Bha"/>
                     <connections>
-                        <outlet property="culture_explanation" destination="fQC-By-jsv" id="V45-nO-Wg2"/>
-                        <outlet property="culture_image" destination="Pz3-Sh-Iwu" id="fcP-n8-KWT"/>
-                        <outlet property="culture_name" destination="TK8-IU-UXE" id="vlf-G4-ROg"/>
+                        <outlet property="food_explanation" destination="fQC-By-jsv" id="ABJ-06-Mvf"/>
+                        <outlet property="food_image" destination="Pz3-Sh-Iwu" id="eQj-Y8-uRy"/>
+                        <outlet property="food_name" destination="TK8-IU-UXE" id="LU1-fR-3Yt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8wA-5U-Zm2" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-132.06106870229007" y="1300"/>
+            <point key="canvasLocation" x="37" y="1268"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="3i9-N6-gCb"/>
+        <segue reference="u36-L2-8yl"/>
         <segue reference="p3D-wK-77m"/>
         <segue reference="Vus-OJ-zsN"/>
-        <segue reference="q9O-MJ-Jxf"/>
+        <segue reference="SDS-U9-SrW"/>
         <segue reference="tGk-hs-f2I"/>
-        <segue reference="0Xr-5X-g1w"/>
-        <segue reference="RXa-xv-YKk"/>
+        <segue reference="y6Y-lQ-3ny"/>
+        <segue reference="1em-hY-eP0"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="systemPinkColor"/>
     <resources>

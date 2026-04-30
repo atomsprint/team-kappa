@@ -39,12 +39,12 @@ class SixthViewController: UIViewController {
         } else if c_index == 5 {
             culture_name.textColor = .systemPink
             culture_explanation.textColor = .systemGreen
-        } else if c_index == 6 {
-            culture_name.textColor = .systemPink
-            culture_explanation.textColor = .systemGreen
-        } else if c_index == 7 {
-            culture_name.textColor = .systemPink
-            culture_explanation.textColor = .systemGreen
+        //} else if c_index == 6 {
+            //culture_name.textColor = .systemPink
+            //culture_explanation.textColor = .systemGreen
+        //} else if c_index == 7 {
+            //culture_name.textColor = .systemPink
+            //culture_explanation.textColor = .systemGreen
         }
         // Do any additional setup after loading the view.
     }
