@@ -24,32 +24,32 @@ class tenViewController: UIViewController {
         food_name.text = al_food_name[f_index]
         food_explanation.text = al_food_explanation[f_index]
         if f_index == 0 {
-            food_name.textColor = .systemBrown
-            food_explanation.textColor = .systemBrown
+            food_name.textColor = UIColor.black
+            food_explanation.textColor = UIColor.black
         } else if f_index == 1 {
-            food_name.textColor = .systemBrown
-            food_explanation.textColor = .systemBrown
+            food_name.textColor = UIColor.black
+            food_explanation.textColor = UIColor.black
         } else if f_index == 2 {
-            food_name.textColor = .systemBrown
-            food_explanation.textColor = .systemBrown
+            food_name.textColor = UIColor.black
+            food_explanation.textColor = UIColor.black
         } else if f_index == 3 {
-            food_name.textColor = .systemBrown
-            food_explanation.textColor = .systemBrown
+            food_name.textColor = UIColor.black
+            food_explanation.textColor = UIColor.black
         } else if f_index == 4 {
-            food_name.textColor = .systemBrown
-            food_explanation.textColor = .systemBrown
+            food_name.textColor = UIColor.black
+            food_explanation.textColor = UIColor.black
         } else if f_index == 5 {
-            food_name.textColor = .systemBrown
-            food_explanation.textColor = .systemBrown
+            food_name.textColor = UIColor.black
+            food_explanation.textColor = UIColor.black
         } else if f_index == 6 {
-            food_name.textColor = .systemBrown
-            food_explanation.textColor = .systemBrown
+            food_name.textColor = UIColor.black
+            food_explanation.textColor = UIColor.black
         } else if f_index == 7 {
-            food_name.textColor = .systemBrown
-            food_explanation.textColor = .systemBrown
+            food_name.textColor = UIColor.black
+            food_explanation.textColor = UIColor.black
         } else if f_index == 8 {
-            food_name.textColor = .systemBrown
-            food_explanation.textColor = .systemBrown
+            food_name.textColor = UIColor.black
+            food_explanation.textColor = UIColor.black
         }
         
         
