@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wbT-59-UTY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wbT-59-UTY">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -68,7 +68,7 @@
             <objects>
                 <viewController id="PHK-Vx-cu4" customClass="SixthViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yGY-ZT-gos">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flF-NG-6qJ">
@@ -557,7 +557,7 @@
             <objects>
                 <viewController id="Lza-S4-cID" customClass="ViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oMm-VV-LWx">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXs-gw-Kfg">
@@ -1070,13 +1070,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10000000000" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8H-5X-Wsu">
-                                <rect key="frame" x="16" y="479" width="361" height="148"/>
+                                <rect key="frame" x="16" y="479" width="296" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="説明文">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.3456763698630137" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="17" name=".HiraKakuInterface-W4"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
                                             <font key="NSOriginalFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -1110,6 +1110,10 @@
                                     <segue destination="KTg-x4-XDW" kind="show" id="xIt-zg-g0m"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="教える" translatesAutoresizingMaskIntoConstraints="NO" id="2CI-S4-tMO">
+                                <rect key="frame" x="227" y="567" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DUq-F5-knz"/>
                         <color key="backgroundColor" red="0.8774414062" green="0.90051102309999997" blue="0.779296875" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1123,7 +1127,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VBT-QR-smy" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2013" y="-1012"/>
+            <point key="canvasLocation" x="2012.9770992366412" y="-1012.6760563380283"/>
         </scene>
         <!--Ten View Controller-->
         <scene sceneID="iun-4l-bKu">
@@ -1205,8 +1209,8 @@
     <inferredMetricsTieBreakers>
         <segue reference="AwV-N9-WkK"/>
         <segue reference="DYA-ax-kpu"/>
-        <segue reference="cjN-3s-RiD"/>
-        <segue reference="q9O-MJ-Jxf"/>
+        <segue reference="xIt-zg-g0m"/>
+        <segue reference="k9D-4S-MYx"/>
         <segue reference="Q3L-PT-Ag4"/>
         <segue reference="0Xr-5X-g1w"/>
         <segue reference="RXa-xv-YKk"/>
@@ -1233,6 +1237,7 @@
         <image name="巡礼POTEKUMA!!" width="114" height="200"/>
         <image name="巡礼in the 秩父神社" width="256" height="197"/>
         <image name="手を振る" width="47" height="66.666664123535156"/>
+        <image name="教える" width="112" height="162.33332824707031"/>
         <image name="栗谷瀬橋の蛇紋岩" width="205.33332824707031" height="138"/>
         <image name="橋立鍾乳洞" width="205.33332824707031" height="138"/>
         <image name="武甲山" width="205.33332824707031" height="138"/>
@@ -1263,13 +1268,13 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.53333333329999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray4Color">
             <color red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.55294117649999996" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
