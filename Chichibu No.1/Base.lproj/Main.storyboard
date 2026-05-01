@@ -1157,10 +1157,6 @@
                                     <segue destination="sY9-mV-Lhx" kind="show" id="Q3L-PT-Ag4"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="potekuma-kunn" translatesAutoresizingMaskIntoConstraints="NO" id="hJf-ps-1Z9">
-                                <rect key="frame" x="16" y="621" width="116" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pz3-Sh-Iwu">
                                 <rect key="frame" x="47" y="169" width="300" height="186"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1173,7 +1169,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQC-By-jsv">
-                                <rect key="frame" x="30" y="363" width="327" height="271"/>
+                                <rect key="frame" x="30" y="363" width="347" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="説明">
@@ -1186,6 +1182,10 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="potekuma-kunn" translatesAutoresizingMaskIntoConstraints="NO" id="hJf-ps-1Z9">
+                                <rect key="frame" x="16" y="649" width="116" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pyc-qz-HPr"/>
                         <color key="backgroundColor" red="0.95044281009999998" green="0.80138026449999999" blue="0.60493109940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1199,7 +1199,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8wA-5U-Zm2" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2013" y="1513"/>
+            <point key="canvasLocation" x="2012.9770992366412" y="1512.6760563380283"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -1207,7 +1207,7 @@
         <segue reference="DYA-ax-kpu"/>
         <segue reference="cjN-3s-RiD"/>
         <segue reference="q9O-MJ-Jxf"/>
-        <segue reference="AGq-rf-cnM"/>
+        <segue reference="Q3L-PT-Ag4"/>
         <segue reference="0Xr-5X-g1w"/>
         <segue reference="RXa-xv-YKk"/>
     </inferredMetricsTieBreakers>
