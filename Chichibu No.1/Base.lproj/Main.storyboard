@@ -627,7 +627,7 @@
             <objects>
                 <viewController storyboardIdentifier="FirstViewController" id="KTg-x4-XDW" customClass="nature_mainViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tz7-nI-m9S">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHH-M6-ALo">
@@ -999,8 +999,8 @@
                                 <color key="textColor" systemColor="systemPinkColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="解説" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6Q-6m-I4W">
-                                <rect key="frame" x="16" y="136" width="361" height="143"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="解説" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6Q-6m-I4W">
+                                <rect key="frame" x="16" y="169" width="361" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1059,7 +1059,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GOb-ia-MSW" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3111" y="-187"/>
+            <point key="canvasLocation" x="3110.6870229007632" y="-187.32394366197184"/>
         </scene>
         <!--Nature sub View Controller-->
         <scene sceneID="u5I-I4-15N">
@@ -1205,7 +1205,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="AwV-N9-WkK"/>
         <segue reference="DYA-ax-kpu"/>
-        <segue reference="Vus-OJ-zsN"/>
+        <segue reference="cjN-3s-RiD"/>
         <segue reference="q9O-MJ-Jxf"/>
         <segue reference="AGq-rf-cnM"/>
         <segue reference="0Xr-5X-g1w"/>
