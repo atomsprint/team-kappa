@@ -87,7 +87,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Duf-MR-Im2">
-                                <rect key="frame" x="85" y="683" width="222" height="81"/>
+                                <rect key="frame" x="83" y="766" width="227" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -100,8 +100,16 @@
                                     <segue destination="VPj-bY-KvN" kind="show" id="y6Y-lQ-3ny"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f9U-oN-fLn">
+                                <rect key="frame" x="26" y="163" width="351" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="94p-YX-PfL">
+                                <rect key="frame" x="26" y="491" width="351" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="1000" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7uU-XU-NGF">
-                                <rect key="frame" x="26" y="344" width="339" height="331"/>
+                                <rect key="frame" x="27" y="261" width="339" height="331"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemBlueColor"/>
                                 <attributedString key="attributedText">
@@ -115,10 +123,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f9U-oN-fLn">
-                                <rect key="frame" x="26" y="163" width="351" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tUH-17-lFv"/>
                         <color key="backgroundColor" red="0.8575824058" green="0.8546527183" blue="0.93789463829999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -127,12 +131,13 @@
                     <connections>
                         <outlet property="culture_explanation" destination="7uU-XU-NGF" id="kL5-Mo-hVj"/>
                         <outlet property="culture_image" destination="f9U-oN-fLn" id="6iP-hm-Fke"/>
+                        <outlet property="culture_map" destination="94p-YX-PfL" id="7jy-VK-DOY"/>
                         <outlet property="culture_name" destination="flF-NG-6qJ" id="hu5-JL-ggF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QxY-e5-Ywh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2013" y="530"/>
+            <point key="canvasLocation" x="2012.9770992366412" y="529.57746478873241"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="D1y-5y-S8P">
@@ -157,7 +162,7 @@
             <objects>
                 <viewController id="VPj-bY-KvN" customClass="FifthViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3j1-aQ-d8D">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQU-mz-OQP">
@@ -339,7 +344,7 @@
             <objects>
                 <viewController id="sY9-mV-Lhx" customClass="nineViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CzZ-oX-oNh">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPM-EF-ZLo">
@@ -1141,7 +1146,7 @@
             <objects>
                 <viewController id="KAT-Vp-75d" customClass="tenViewController" customModule="Chichibu_No_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MDh-wT-AkW">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awR-MF-v89">
@@ -1219,7 +1224,7 @@
         <segue reference="xIt-zg-g0m"/>
         <segue reference="q9O-MJ-Jxf"/>
         <segue reference="Q3L-PT-Ag4"/>
-        <segue reference="0Xr-5X-g1w"/>
+        <segue reference="y6Y-lQ-3ny"/>
         <segue reference="RXa-xv-YKk"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="systemPinkColor"/>
