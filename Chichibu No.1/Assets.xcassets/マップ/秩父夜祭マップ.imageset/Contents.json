@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "秩父夜祭.png",
+      "filename" : "秩父夜祭マップ.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "秩父夜祭マップ 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "秩父夜祭マップ 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

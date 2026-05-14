@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "秩父事件.png",
+      "filename" : "和銅遺跡マップ.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "和銅遺跡マップ 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "和銅遺跡マップ 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "銘仙.png",
+      "filename" : "銘仙マップ.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "銘仙マップ 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "銘仙マップ 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
